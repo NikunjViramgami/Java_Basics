@@ -37,10 +37,11 @@ class Shape{
 
 class Rectangle extends Shape{
     
-    public Rectangle(int length,int breadth){
-        super(length, breadth);
+    public Rectangle(int l,int b){
+        super(l, b);
         
     }
+    @Override
     public void run(){
         System.out.println(length*breadth);
     }
